@@ -1,0 +1,44 @@
+
+body {
+    background-color: rgb(43, 43, 43);
+}
+
+.card-container {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.card-container::-webkit-scrollbar {
+    display: none;
+}
+
+.card {
+    width: 100%;
+    margin: 20px auto;
+    max-width: 300px;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    margin: 3px;
+}
+
+.card-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.card-content {
+    color: white;
+    padding: 0px;
+    margin-right: 20px;
+}
+
+.card-title {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+} 
+
+.stats {
+    color: grey;
+}
+
